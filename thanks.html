@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you for contacting GardenGuru. We will get back to you soon.">
+    <title>Thank You - GardenGuru</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <style>
+        .thanks {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--color-background-alt);
+        }
+
+        .thanks__content {
+            max-width: 600px;
+            background: var(--color-background);
+            padding: 60px 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .thanks__icon {
+            width: 80px;
+            height: 80px;
+            fill: var(--color-primary);
+            margin: 0 auto 30px;
+        }
+
+        .thanks__title {
+            font-size: 36px;
+            color: var(--color-primary);
+            margin-bottom: 20px;
+        }
+
+        .thanks__text {
+            font-size: 18px;
+            color: var(--color-text);
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .thanks__button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: var(--color-primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .thanks__button:hover {
+            background: var(--color-secondary);
+        }
+
+        @media (max-width: 480px) {
+            .thanks__content {
+                padding: 40px 20px;
+            }
+
+            .thanks__title {
+                font-size: 28px;
+            }
+
+            .thanks__text {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="thanks">
+        <div class="thanks__content">
+            <svg class="thanks__icon" viewBox="0 0 40 40">
+                <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                <path d="M12 20l6 6 10-10" fill="none" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            <h1 class="thanks__title">Thank You!</h1>
+            <p class="thanks__text">We have received your message and will get back to you soon. If you have any urgent questions, please feel free to contact us directly.</p>
+            <a href="index.html" class="thanks__button">Return to Home</a>
+        </div>
+    </main>
+</body>
+</html> 
