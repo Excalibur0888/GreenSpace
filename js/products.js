@@ -3,7 +3,7 @@ const products = {
     tools: [
         {
             id: 't1',
-            image: '../images/pruning-shears.jpg',
+            image: 'images/pruning-shears.jpg',
             title: 'Premium Pruning Shears',
             description: 'Professional-grade pruning shears with ergonomic design',
             price: 899,
@@ -11,7 +11,7 @@ const products = {
         },
         {
             id: 't2',
-            image: '../images/garden-trowel.jpg',
+            image: 'images/garden-trowel.jpg',
             title: 'Garden Trowel Set',
             description: '3-piece ergonomic trowel set for planting',
             price: 699,
@@ -19,7 +19,7 @@ const products = {
         },
         {
             id: 't3',
-            image: '../images/rake.jpg',
+            image: 'images/rake.jpg',
             title: 'Garden Rake',
             description: 'Durable rake for leaves and garden maintenance',
             price: 599,
@@ -27,7 +27,7 @@ const products = {
         },
         {
             id: 't4',
-            image: '../images/watering-can.jpg',
+            image: 'images/watering-can.jpg',
             title: 'Watering Can',
             description: '5L capacity with adjustable sprinkler head',
             price: 449,
@@ -35,7 +35,7 @@ const products = {
         },
         {
             id: 't5',
-            image: '../images/gloves.jpg',
+            image: 'images/gloves.jpg',
             title: 'Gardening Gloves',
             description: 'Protective gloves with grip enhancement',
             price: 299,
@@ -43,7 +43,7 @@ const products = {
         },
         {
             id: 't6',
-            image: '../images/shovel.jpg',
+            image: 'images/shovel.jpg',
             title: 'Garden Shovel',
             description: 'Heavy-duty shovel for digging and transplanting',
             price: 799,
@@ -53,7 +53,7 @@ const products = {
     seeds: [
         {
             id: 's1',
-            image: '../images/vegetable-mix.jpg',
+            image: 'images/vegetable-mix.jpg',
             title: 'Vegetable Seeds Collection',
             description: '10 varieties of premium vegetable seeds',
             price: 399,
@@ -61,7 +61,7 @@ const products = {
         },
         {
             id: 's2',
-            image: '../images/herb-kit.jpg',
+            image: 'images/herb-kit.jpg',
             title: 'Herb Seeds Kit',
             description: '6 popular herb varieties with growing guide',
             price: 299,
@@ -69,7 +69,7 @@ const products = {
         },
         {
             id: 's3',
-            image: '../images/flower-mix.jpg',
+            image: 'images/flower-mix.jpg',
             title: 'Flower Seeds Mix',
             description: 'Colorful flower varieties for garden beauty',
             price: 249,
@@ -77,7 +77,7 @@ const products = {
         },
         {
             id: 's4',
-            image: '../images/tomato.jpg',
+            image: 'images/tomato.jpg',
             title: 'Tomato Seeds',
             description: 'High-yield hybrid tomato varieties',
             price: 199,
@@ -85,7 +85,7 @@ const products = {
         },
         {
             id: 's5',
-            image: '../images/chili.jpg',
+            image: 'images/chili.jpg',
             title: 'Chili Seeds',
             description: 'Popular Indian chili varieties',
             price: 149,
@@ -93,7 +93,7 @@ const products = {
         },
         {
             id: 's6',
-            image: '../images/microgreens.jpg',
+            image: 'images/microgreens.jpg',
             title: 'Microgreens Kit',
             description: 'Complete kit for growing nutritious microgreens',
             price: 499,
@@ -103,7 +103,7 @@ const products = {
     equipment: [
         {
             id: 'e1',
-            image: '../images/drip-system.jpg',
+            image: 'images/drip-system.jpg',
             title: 'Drip Irrigation System',
             description: 'Complete drip irrigation system for small gardens',
             price: 1999,
@@ -111,7 +111,7 @@ const products = {
         },
         {
             id: 'e2',
-            image: '../images/sprayer.jpg',
+            image: 'images/sprayer.jpg',
             title: 'Garden Sprayer',
             description: '5L pressure sprayer for fertilizers and pesticides',
             price: 799,
@@ -119,7 +119,7 @@ const products = {
         },
         {
             id: 'e3',
-            image: '../images/mist-system.jpg',
+            image: 'images/mist-system.jpg',
             title: 'Misting System',
             description: 'Automatic misting system for humidity control',
             price: 2499,
@@ -127,7 +127,7 @@ const products = {
         },
         {
             id: 'e4',
-            image: '../images/greenhouse.jpg',
+            image: 'images/greenhouse.jpg',
             title: 'Mini Greenhouse',
             description: 'Portable greenhouse for plant protection',
             price: 3999,
@@ -135,7 +135,7 @@ const products = {
         },
         {
             id: 'e5',
-            image: '../images/timer.jpg',
+            image: 'images/timer.jpg',
             title: 'Irrigation Timer',
             description: 'Digital timer for automatic watering',
             price: 1299,
@@ -143,7 +143,7 @@ const products = {
         },
         {
             id: 'e6',
-            image: '../images/pump.jpg',
+            image: 'images/pump.jpg',
             title: 'Water Pump',
             description: 'Submersible pump for garden irrigation',
             price: 2999,
@@ -153,7 +153,7 @@ const products = {
     pots: [
         {
             id: 'p1',
-            image: '../images/ceramic-set.jpg',
+            image: 'images/ceramic-set.jpg',
             title: 'Ceramic Pot Set',
             description: 'Set of 3 decorative ceramic pots',
             price: 1299,
@@ -161,7 +161,7 @@ const products = {
         },
         {
             id: 'p2',
-            image: '../images/hanging.jpg',
+            image: 'images/hanging.jpg',
             title: 'Hanging Planters',
             description: 'Set of 4 hanging planters with chains',
             price: 899,
@@ -169,7 +169,7 @@ const products = {
         },
         {
             id: 'p3',
-            image: '../images/self-watering.jpg',
+            image: 'images/self-watering.jpg',
             title: 'Self-Watering Pot',
             description: 'Smart pot with water reservoir',
             price: 599,
@@ -177,7 +177,7 @@ const products = {
         },
         {
             id: 'p4',
-            image: '../images/terracotta.jpg',
+            image: 'images/terracotta.jpg',
             title: 'Terracotta Pots',
             description: 'Traditional terracotta pots set of 5',
             price: 999,
@@ -185,7 +185,7 @@ const products = {
         },
         {
             id: 'p5',
-            image: '../images/vertical-pots.jpg',
+            image: 'images/vertical-pots.jpg',
             title: 'Vertical Garden Pots',
             description: 'Stackable pots for vertical gardening',
             price: 1499,
@@ -193,7 +193,7 @@ const products = {
         },
         {
             id: 'p6',
-            image: '../images/railing.jpg',
+            image: 'images/railing.jpg',
             title: 'Railing Planters',
             description: 'Adjustable planters for balcony railings',
             price: 799,
@@ -203,7 +203,7 @@ const products = {
     soil: [
         {
             id: 'sf1',
-            image: '../images/potting-mix.jpg',
+            image: 'images/potting-mix.jpg',
             title: 'Premium Potting Mix',
             description: 'All-purpose potting mix for container plants',
             price: 449,
@@ -211,7 +211,7 @@ const products = {
         },
         {
             id: 'sf2',
-            image: '../images/organic-compost.jpg',
+            image: 'images/organic-compost.jpg',
             title: 'Organic Compost',
             description: 'Rich organic compost for healthy plants',
             price: 299,
@@ -219,7 +219,7 @@ const products = {
         },
         {
             id: 'sf3',
-            image: '../images/coco-peat.jpg',
+            image: 'images/coco-peat.jpg',
             title: 'Coco Peat Block',
             description: 'Compressed coco peat for soil amendment',
             price: 199,
@@ -227,7 +227,7 @@ const products = {
         },
         {
             id: 'sf4',
-            image: '../images/vermicompost.jpg',
+            image: 'images/vermicompost.jpg',
             title: 'Vermicompost',
             description: 'Natural fertilizer from earthworms',
             price: 399,
@@ -235,7 +235,7 @@ const products = {
         },
         {
             id: 'sf5',
-            image: '../images/perlite.jpg',
+            image: 'images/perlite.jpg',
             title: 'Perlite',
             description: 'Natural soil aerator for better drainage',
             price: 249,
@@ -243,7 +243,7 @@ const products = {
         },
         {
             id: 'sf6',
-            image: '../images/neem-cake.jpg',
+            image: 'images/neem-cake.jpg',
             title: 'Neem Cake Fertilizer',
             description: 'Organic pest control and fertilizer',
             price: 349,
